@@ -1,38 +1,221 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Navbar Container */
+.navbar {
+    background-color: #ffffff; /* Set background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
   }
-  to {
-    transform: rotate(360deg);
+  
+  /* Navbar Logo */
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333333; /* Set logo color */
+    text-decoration: none;
   }
-}
+  
+  /* Navbar Menu */
+  .navbar-menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-menu li {
+    margin-right: 1.5rem; /* Add spacing between menu items */
+  }
+  
+  .navbar-menu li:last-child {
+    margin-right: 0; /* Remove margin from last menu item */
+  }
+  
+  .navbar-menu li a {
+    color: #333333; /* Set menu item color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Add smooth transition for hover effect */
+  }
+  
+  .navbar-menu li a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  
+  /* Login Button */
+  .navbar-menu button {
+    background-color: #007bff; /* Set button background color */
+    color: #ffffff; /* Set button text color */
+    border: none;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add smooth transition for hover effect */
+  }
+  
+  .navbar-menu button:hover {
+    background-color: #0056b3; /* Change button background color on hover */
+  }
+  
+
+
+
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button-profile {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button-internships {
+    background-color: #343a40;
+    color: #fff;
+  }
+  
+  .button:hover {
+    background-color: #4d94ff;
+  }
+  
+  .button:active {
+    transform: translateY(1px);
+  }
+  
+
+
+
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .button {
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button:active {
+    transform: translateY(1px);
+  }
+ 
+  
+
+
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .content {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 40px;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .button {
+    padding: 12px 24px;
+    margin: 0 10px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+  }
+  
+  .button:active {
+    transform: translateY(1px);
+  }
+  
